@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Food-Website-React/static/css/main.171fb14f.chunk.css",
+    "main.js": "/Food-Website-React/static/js/main.8981a2bb.chunk.js",
+    "main.js.map": "/Food-Website-React/static/js/main.8981a2bb.chunk.js.map",
+    "runtime-main.js": "/Food-Website-React/static/js/runtime-main.9379461d.js",
+    "runtime-main.js.map": "/Food-Website-React/static/js/runtime-main.9379461d.js.map",
+    "static/js/2.554d5d7f.chunk.js": "/Food-Website-React/static/js/2.554d5d7f.chunk.js",
+    "static/js/2.554d5d7f.chunk.js.map": "/Food-Website-React/static/js/2.554d5d7f.chunk.js.map",
+    "static/js/3.f3d69f9d.chunk.js": "/Food-Website-React/static/js/3.f3d69f9d.chunk.js",
+    "static/js/3.f3d69f9d.chunk.js.map": "/Food-Website-React/static/js/3.f3d69f9d.chunk.js.map",
+    "index.html": "/Food-Website-React/index.html",
+    "static/css/main.171fb14f.chunk.css.map": "/Food-Website-React/static/css/main.171fb14f.chunk.css.map",
+    "static/js/2.554d5d7f.chunk.js.LICENSE.txt": "/Food-Website-React/static/js/2.554d5d7f.chunk.js.LICENSE.txt",
+    "static/media/6.png": "/Food-Website-React/static/media/6.df2f5bd9.png",
+    "static/media/brkfst.15345854.png": "/Food-Website-React/static/media/brkfst.15345854.png",
+    "static/media/burger.04962077.png": "/Food-Website-React/static/media/burger.04962077.png",
+    "static/media/calabasa.4e3d0e52.png": "/Food-Website-React/static/media/calabasa.4e3d0e52.png",
+    "static/media/fruit.d755c175.png": "/Food-Website-React/static/media/fruit.d755c175.png",
+    "static/media/masala.a7ff1c96.png": "/Food-Website-React/static/media/masala.a7ff1c96.png",
+    "static/media/noodles.5e516d50.png": "/Food-Website-React/static/media/noodles.5e516d50.png",
+    "static/media/paella.9422c192.png": "/Food-Website-React/static/media/paella.9422c192.png",
+    "static/media/pecking.f58c579e.png": "/Food-Website-React/static/media/pecking.f58c579e.png",
+    "static/media/rice.812dd5e5.png": "/Food-Website-React/static/media/rice.812dd5e5.png",
+    "static/media/somtam.7ede8062.png": "/Food-Website-React/static/media/somtam.7ede8062.png",
+    "static/media/soup.7006db4f.png": "/Food-Website-React/static/media/soup.7006db4f.png",
+    "static/media/strawberry.287cc232.png": "/Food-Website-React/static/media/strawberry.287cc232.png",
+    "static/media/sushi.0e3bb162.png": "/Food-Website-React/static/media/sushi.0e3bb162.png",
+    "static/media/team1.png": "/Food-Website-React/static/media/team1.b30a9415.png",
+    "static/media/team2.png": "/Food-Website-React/static/media/team2.847ae417.png",
+    "static/media/team3.png": "/Food-Website-React/static/media/team3.58d47dc1.png",
+    "static/media/vegan.d8e09634.png": "/Food-Website-React/static/media/vegan.d8e09634.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9379461d.js",
+    "static/js/2.554d5d7f.chunk.js",
+    "static/css/main.171fb14f.chunk.css",
+    "static/js/main.8981a2bb.chunk.js"
+  ]
+}
