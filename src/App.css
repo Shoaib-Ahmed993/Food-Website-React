@@ -1,0 +1,359 @@
+
+:root {
+  --green: #40ba37;
+  --darkGreen: #1c8314;
+  --black: #000;
+  --white: #fff;
+}
+
+#homelink {
+  color: var(--white) !important;
+  background-color: var(--green) !important;
+  border-bottom: 3px solid var(--darkGreen) !important;
+}
+
+a.logo {
+  transition: transform 1s ease;
+  font-family: 'Italianno', cursive;
+  font-style: italic;
+  font-size: 2.7em;
+  font-weight: 900;
+}
+
+#food {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 10;
+  font-style: normal;
+  display: flex;
+  margin-top: -1em;
+  letter-spacing: 0.5em;
+}
+
+.logo:hover {
+  transform: scale(1.2, 1.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.strawberry a, .chinese a, .back a {
+  color: var(--white) !important;
+  background-color: var(--green) !important;
+  border-left: 3px solid var(--darkGreen);
+  text-shadow: 2px 2px 4px var(--black);
+}
+
+.back p {
+  color: var(--white);
+}
+
+.back a.btn:hover {
+  transform: rotate(180deg);
+}
+
+.chinese :hover {
+  transform: translateX(10px);
+  transition: all 1s ease-out;
+}
+
+.strawberry :hover {
+  transform: translateY(10px);
+  transition: all 1s ease-in-out;
+}
+
+.back :hover {
+  transform: translateY(10px);
+  transition: all 1s ease-in-out;
+}
+
+.strawberry {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+img {
+  float: left;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.back {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+h3, h6 {
+  color: var(--white) !important;
+  text-shadow: 2px 2px 4px var(--black);
+}
+
+.chinese {
+  position: absolute;
+  top: 35%;
+  right: 14%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 18px 11px;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+  line-height: 1;
+  color: rgb(37, 34, 34) !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: var(--white) !important;
+  background-color: var(--green);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.search {
+  margin-left: 25%;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.search i {
+  color: rgb(124, 116, 116) !important;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.end {
+  margin-top: 25px;
+}
+
+.dropdown-item {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 18px 11px;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+  line-height: 1;
+  color: rgb(37, 34, 34) !important;
+  font-weight: 600;
+}
+
+.dropdown-item:hover {
+  color: #fff !important;
+  background-color: var(--green);
+  transform: scale(1);
+  opacity: 0.8;
+}
+
+a.btn {
+  transition: transform 3s;
+}
+
+.chinese a.btn:hover {
+  transform: translate(3em, 0);
+}
+
+.strawberry a.btn:hover {
+  transform: translate(0, 1.5em);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card img {
+  border: 1px solid rgb(160, 152, 152);
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transform: translateY(10px);
+  transition: all 1s ease-in-out;
+}
+
+i:hover {
+  width: 20%;
+}
+
+.scrollToTop {
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 15px;
+  display: none;
+  height: 50px;
+  padding: 2px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 99999;
+}
+
+.scrollToTop i {
+  color: var(--white);
+  font-size: 40px;
+}
+
+.scrollToTop:hover {
+  background-color: var(--green);
+  border-bottom: 3px solid var(--darkGreen) !important;
+}
+
+.recepies h1 {
+  text-shadow: 2px 2px 8px #beb7b7;
+}
+
+@media only screen and (max-width: 500px) {
+  img.bg {
+      height: 150%;
+  }
+
+  .end {
+      width: 90%;
+  }
+
+  .background {
+      margin-bottom: 10%;
+  }
+
+  .card {
+      margin-left: 10%;
+      width: 80%;
+      margin-bottom: 5%;
+  }
+
+  .back, .strawberry, .chinese {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  img.bg {
+      height: 150%;
+  }
+
+  .back a {
+      margin-top: -20px;
+  }
+
+  .end {
+      width: 90%;
+  }
+
+  .background {
+      margin-bottom: 20%;
+  }
+
+  .strawberry, .chinese {
+      display: none;
+  }
+
+  .back {
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.7);
+      height: 50%;
+      width: 52%;
+  }
+
+  a.btn {
+      margin-top: -20%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  img.bg {
+      height: 150%;
+  }
+
+  .back a {
+      margin-top: -20px;
+  }
+
+  .end {
+      width: 90%;
+  }
+
+  .background {
+      margin-bottom: 20%;
+  }
+
+  .strawberry, .chinese {
+      display: none;
+  }
+
+  .back {
+      position: absolute;
+      top: 41%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.7);
+      height: 50%;
+      width: 52%;
+  }
+
+  a.btn {
+      margin-top: -20%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  img.bg {
+      height: 150%;
+  }
+
+  .back a {
+      margin-top: -20px;
+  }
+
+  .end {
+      width: 90%;
+  }
+
+  .background {
+      margin-bottom: 20%;
+  }
+
+  .strawberry, .chinese, .back {
+      display: none;
+  }
+
+  .footer-bottom p {
+      padding-left: 18%;
+  }
+}
+
+li i.fa:hover {
+  transform: scale(1.5, 1.5);
+}
